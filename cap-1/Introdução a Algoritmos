@@ -1,0 +1,23 @@
+Um algoritmo é um conjunto de intruções que realizam tarefa
+
+
+Pesquisa Binária:
+A pesquie binária é um algoritmo, sua entrada é uma lista ordenada de elementos.
+Se o elemento que você está buscando está na lista, a pesquisa binária retorna 
+esse elemento, caso contrário, a pesquisa binária retorna None.
+
+1. Divide a lista ao meio
+2. Compara o elemento do meio da lista com o elemento a ser procurado
+3. Se o elemento do meio for o procurando a lsita termina
+4. Se o elemento do meio for menor que o elemento a ser buscado, a busca 
+continua na metade superior
+5. Se o elemento do meio for maior que o elemento a ser buscado, a busca 
+continua na metade inferior
+
+A pesquisa binária precisa de log de n na base 2 
+
+EXERCÍCIOS 
+1.1 - 7 etapas
+1.1 - 8 etapas
+
+
