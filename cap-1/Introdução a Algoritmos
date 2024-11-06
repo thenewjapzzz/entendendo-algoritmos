@@ -20,4 +20,30 @@ EXERCÍCIOS
 1.1 - 7 etapas
 1.1 - 8 etapas
 
+A notação Bio O é uma notação especial que diz o quão rápido é um 
+algoritmo.
+
+Alguns Exemplos comuns de tempo de execução Big O
+- O(log n): tempo logarítmico -> pesquisa binária;
+
+- O(n): tempo linear -> pesquisa simples;
+
+- O(n * log n ): algoritmo de ordenação rápido -> quicksort;
+
+- O(n²): algoritmo lendo de ordenação -> ordenação por seleção;
+
+- O(n!): algoritmo bastante lento -> caixeiro viajante
+
+A rapidez de um algoritmo não é medida em segundos, mas pelo
+crescimento do número de operações
+
+EXERCÍCIOS
+1.3 - O(log n)
+1.4 - O(n)
+1.5 - O(n)
+1.6 - O(n)
+
+O problema do caixeiro-viajante:
+Utiliza O(n!) para verificar todas as possibilidades e verificar 
+qual possui a distância mínima
 
