@@ -1,0 +1,33 @@
+Como funciona a memória?
+O computador se parece com um grande conjunto de gavetas,
+e cada gaveta tem seu endereço
+Se quiser armazenar múltiplos itens, existem duas maneiras
+para isso: Array e lista
+
+Array e listas encadeadas:
+ARRAY:
+Usar um ->Array<- significa que todas as suas tarefas estão 
+armazenadas contiguamente (uma ao lado da outra) na memória,
+adicionar novos itens a um array será muito lento, uma maneira
+de contornar isso é 'reservando lugares', 
+-> Desvantagens: 
+ - Despercídio de memória caso não use esses espaços extras;
+ - Caso precise adicionar mais itens que a 'quantidade reservada'
+ precisará mover todos de qualquer forma
+
+LISTAS ENCADEADAS:
+Com listas encadeadas, seus itens podem estar em qualquer lugar 
+da memória, cada item armazena o endereço do próximo item da lista.
+
+Listas encadeadas são ótimas se você quiser ler todos os itens,
+um de cada vez.
+Com arrays é diferente, você sabe o endereço de cada item, arrays são 
+ótimos se você deseja ler elementos aleatórios, pois pode encontrar qualquer
+elemento em um array.
+
+Terminologia:
+Os elementos em um array são numerados, começando do índice 0.
+
+EXERCÍCIOS
+2.1 - Listas, já que ela irá passar por todos os elementos
+
